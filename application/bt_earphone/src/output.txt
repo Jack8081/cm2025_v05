@@ -1,0 +1,624 @@
+卷 软件 的文件夹 PATH 列表
+卷序列号为 9652-A13A
+D:.
+|   CMakeLists.txt
+|   Makefile
+|   output.txt
+|   
++---att
+|   |   Kconfig
+|   |   Makefile
+|   |   readme.md
+|   |   unpack_configtxt.sh
+|   |   unpack_configtxt_from_firmware.py
+|   |   
+|   +---att_bin
+|   |   |   acttest.ap
+|   |   |   atf_make.cfg
+|   |   |   attcheck.exe
+|   |   |   config.txt
+|   |   |   config.xml
+|   |   |   mp_btc.bin
+|   |   |   
+|   |   \---outbin
+|   |           loader.bin
+|   |           loader.hex
+|   |           p01_bta.bin
+|   |           p01_bta.hex
+|   |           p02_bta.bin
+|   |           p02_bta.hex
+|   |           p03_bqb.bin
+|   |           p03_bqb.hex
+|   |           p05_rx.bin
+|   |           p05_rx.hex
+|   |           p18_gpi.bin
+|   |           p20_adc.bin
+|   |           p30_sn.bin
+|   |           p30_sn.hex
+|   |           
+|   \---att_patterns
+|       |   build.sh
+|       |   Makefile
+|       |   readme.txt
+|       |   
+|       +---group1
+|       |   |   Makefile
+|       |   |   
+|       |   +---bqb_test
+|       |   |   |   ap_autotest_misc_test.c
+|       |   |   |   Makefile
+|       |   |   |   
+|       |   |   \---cuckoo
+|       |   |           link.ld.S
+|       |   |           link.sct
+|       |   |           link.sct.S
+|       |   |           Makefile
+|       |   |           p03_bqb.bin
+|       |   |           p03_bqb.htm
+|       |   |           
+|       |   +---bt_db_read
+|       |   |   |   ap_autotest_read_param.c
+|       |   |   |   link.ld.S
+|       |   |   |   Makefile
+|       |   |   |   
+|       |   |   \---cuckoo
+|       |   |           link.ld.S
+|       |   |           link.sct
+|       |   |           link.sct.S
+|       |   |           Makefile
+|       |   |           p02_bta.bin
+|       |   |           p02_bta.htm
+|       |   |           
+|       |   +---bt_db_test
+|       |   |   |   ap_autotest_modify_bt_info.c
+|       |   |   |   Makefile
+|       |   |   |   
+|       |   |   \---cuckoo
+|       |   |           link.ld.S
+|       |   |           link.sct
+|       |   |           link.sct.S
+|       |   |           Makefile
+|       |   |           p01_bta.bin
+|       |   |           p01_bta.htm
+|       |   |           
+|       |   +---gpio_test
+|       |   |   |   ap_autotest_gpio.h
+|       |   |   |   ap_autotest_gpio_sub.c
+|       |   |   |   Makefile
+|       |   |   |   
+|       |   |   \---cuckoo
+|       |   |           link.ld
+|       |   |           link.ld.S
+|       |   |           link.sct.S
+|       |   |           Makefile
+|       |   |           p18_gpi.bin
+|       |   |           
+|       |   +---mic_test
+|       |   |   |   ap_autotest_mic_test.c
+|       |   |   |   audio_record.c
+|       |   |   |   audio_record.h
+|       |   |   |   Makefile
+|       |   |   |   
+|       |   |   +---cuckoo
+|       |   |   |       link.ld.S
+|       |   |   |       link.sct
+|       |   |   |       link.sct.S
+|       |   |   |       Makefile
+|       |   |   |       p20_adc.bin
+|       |   |   |       p20_adc.htm
+|       |   |   |       
+|       |   |   \---phy_adc
+|       |   |           phy_adc.c
+|       |   |           phy_adc.h
+|       |   |           soc_common.c
+|       |   |           soc_common.h
+|       |   |           
+|       |   +---mp_test
+|       |   |   |   ap_autotest_porting.c
+|       |   |   |   ap_autotest_porting.h
+|       |   |   |   ap_autotest_rf_rx.c
+|       |   |   |   ap_autotest_rf_rx.h
+|       |   |   |   ap_autotest_rf_rx_ber_rssi_process.c
+|       |   |   |   ap_autotest_rf_rx_cfo_calc.c
+|       |   |   |   ap_autotest_rf_rx_cfo_process.c
+|       |   |   |   ap_autotest_rf_rx_cfo_trim.c
+|       |   |   |   ap_autotest_rf_rx_mp_mamager.c
+|       |   |   |   ap_autotest_rf_rx_rssi_calc.c
+|       |   |   |   Makefile
+|       |   |   |   mp_manager_header.h
+|       |   |   |   rftest_main.c
+|       |   |   |   
+|       |   |   +---cuckoo
+|       |   |   |       link.ld.S
+|       |   |   |       link.sct
+|       |   |   |       link.sct.S
+|       |   |   |       Makefile
+|       |   |   |       p05_rx.bin
+|       |   |   |       p05_rx.htm
+|       |   |   |       
+|       |   |   \---mp_lib
+|       |   |           fcc_cmd.h
+|       |   |           fcc_drv_extern.h
+|       |   |           mp_rx_process.c
+|       |   |           mp_txrx_cmd.c
+|       |   |           
+|       |   \---serialnumber_test
+|       |       |   ap_autotest_serial_number.c
+|       |       |   Makefile
+|       |       |   
+|       |       \---cuckoo
+|       |               link.ld.S
+|       |               link.sct
+|       |               link.sct.S
+|       |               Makefile
+|       |               p30_sn.bin
+|       |               p30_sn.htm
+|       |               
+|       +---include
+|       |   |   ap_autotest_cmd.h
+|       |   |   att_debug.h
+|       |   |   att_interface.h
+|       |   |   att_linker_addr.h
+|       |   |   att_linker_addr_sct.h
+|       |   |   att_linker_conf.h
+|       |   |   att_pattern_header.h
+|       |   |   att_pattern_test.h
+|       |   |   att_prj_config.h
+|       |   |   
+|       |   +---arm
+|       |   |       cmsis.h
+|       |   |       cmsis_armcc.h
+|       |   |       cmsis_armclang.h
+|       |   |       cmsis_armclang_ltm.h
+|       |   |       cmsis_compiler.h
+|       |   |       cmsis_gcc.h
+|       |   |       cmsis_version.h
+|       |   |       core_cm4.h
+|       |   |       nvic.h
+|       |   |       
+|       |   +---gcc-include
+|       |   |       byteorder.h
+|       |   |       ctype.h
+|       |   |       gcc_include.h
+|       |   |       restrict.h
+|       |   |       stdarg.h
+|       |   |       stdint.h
+|       |   |       stdio.h
+|       |   |       stdlib.h
+|       |   |       string.h
+|       |   |       time.h
+|       |   |       types.h
+|       |   |       unistd.h
+|       |   |       zephyr_stdint.h
+|       |   |       
+|       |   +---sdk-include
+|       |   |       audio_hal.h
+|       |   |       compensation.h
+|       |   |       dlist.h
+|       |   |       errno.h
+|       |   |       fw_version.h
+|       |   |       gpio.h
+|       |   |       kernel.h
+|       |   |       property_manager.h
+|       |   |       sdk_include.h
+|       |   |       soc_boot.h
+|       |   |       stub.h
+|       |   |       
+|       |   \---soc-include
+|       |           brom_interface.h
+|       |           mp_cuckoo.h
+|       |           soc.h
+|       |           soc_atp.h
+|       |           soc_cmu.h
+|       |           soc_regs.h
+|       |           sys_io.h
+|       |           
+|       +---lib
+|       |   |   ap_autotest_common.c
+|       |   |   ap_autotest_extern_function.c
+|       |   |   ap_autotest_print.c
+|       |   |   ap_autotest_read_args.c
+|       |   |   Makefile
+|       |   |   
+|       |   +---compensation
+|       |   |       compensation.c
+|       |   |       compensation.h
+|       |   |       
+|       |   +---cuckoo
+|       |   |   |   libatt.lib
+|       |   |   |   Makefile
+|       |   |   |   soc_clock.c
+|       |   |   |   soc_cmu.c
+|       |   |   |   soc_reset.c
+|       |   |   |   soc_uart.c
+|       |   |   |   string.c
+|       |   |   |   
+|       |   |   +---mp_btc
+|       |   |   |       code_in_btram0.h
+|       |   |   |       mp_btc_inner.h
+|       |   |   |       mp_core_load.c
+|       |   |   |       mp_ipmsg.c
+|       |   |   |       
+|       |   |   \---socatp
+|       |   |           libatpatt.a
+|       |   |           libatpatt.lib
+|       |   |           
+|       |   \---rbuf
+|       |           rbuf_conf.h
+|       |           rbuf_core.c
+|       |           rbuf_core.h
+|       |           rbuf_mem.h
+|       |           rbuf_msg.h
+|       |           rbuf_msg_sc.h
+|       |           rbuf_pool.c
+|       |           rbuf_pool.h
+|       |           
+|       +---loader
+|       |   |   ap_autotest_fsm.c
+|       |   |   ap_autotest_loader.h
+|       |   |   ap_autotest_main.c
+|       |   |   Makefile
+|       |   |   
+|       |   \---cuckoo
+|       |           link.ld.S
+|       |           link.sct
+|       |           link.sct.S
+|       |           loader.bin
+|       |           loader.htm
+|       |           Makefile
+|       |           
+|       \---scripts
+|               build_atf.py
+|               config.mk
+|               cuckoo.mk
+|               
++---audio_input
+|       audio_input.h
+|       audio_input_ctrl.c
+|       audio_input_event.c
+|       audio_input_main.c
+|       audio_input_media.c
+|       audio_input_view.c
+|       CMakeLists.txt
+|       Kconfig
+|       Makefile
+|       
++---btcall
+|       btcall.h
+|       btcall_ctrl.c
+|       btcall_event.c
+|       btcall_main.c
+|       btcall_media.c
+|       btcall_ring.c
+|       btcall_tws.c
+|       btcall_view.c
+|       CMakeLists.txt
+|       Kconfig
+|       Makefile
+|       
++---btmusic
+|       btmusic.h
+|       btmusic_ctrl.c
+|       btmusic_event.c
+|       btmusic_func.c
+|       btmusic_main.c
+|       btmusic_media.c
+|       btmusic_view.c
+|       CMakeLists.txt
+|       Kconfig
+|       Makefile
+|       
++---include
+|   |   app_aging_playback.h
+|   |   app_defines.h
+|   |   app_ui.h
+|   |   aset.h
+|   |   config.h
+|   |   config_al.h
+|   |   config_cuckoo.h
+|   |   stub.h
+|   |   stub_command.h
+|   |   system_bt.h
+|   |   system_notify.h
+|   |   tool_app.h
+|   |   usp_protocol.h
+|   |   
+|   \---user_comm
+|       |   aes_mw.h
+|       |   app_utility.h
+|       |   ap_ota_transmit.h
+|       |   ap_record.h
+|       |   ap_role_switch.h
+|       |   ap_status.h
+|       |   sys_comm.h
+|       |   
+|       \---tinycrypt
+|               aes.h
+|               cbc_mode.h
+|               ccm_mode.h
+|               cmac_mode.h
+|               constants.h
+|               ctr_mode.h
+|               ctr_prng.h
+|               ecc.h
+|               ecc_dh.h
+|               ecc_dsa.h
+|               ecc_platform_specific.h
+|               hmac.h
+|               hmac_prng.h
+|               sha256.h
+|               utils.h
+|               
++---le_audio
+|       CMakeLists.txt
+|       Kconfig
+|       leaudio.h
+|       leaudio_ctrl.c
+|       leaudio_event.c
+|       leaudio_main.c
+|       leaudio_media.c
+|       leaudio_media_profile.c
+|       leaudio_view.c
+|       Makefile
+|       
++---libsrc
+|   |   CMakeLists.txt
+|   |   
+|   +---aset
+|   |       aset_baudrate.c
+|   |       aset_fsm.c
+|   |       aset_init.c
+|   |       aset_inner.h
+|   |       aset_read.c
+|   |       CMakeLists.txt
+|   |       
+|   +---common
+|   |       app_ui_event_notify.c
+|   |       audio_channel.c
+|   |       CMakeLists.txt
+|   |       
+|   +---config
+|   |       app_config.c
+|   |       CMakeLists.txt
+|   |       
+|   +---consumer_eq
+|   |       CMakeLists.txt
+|   |       consumer_eq.c
+|   |       Kconfig
+|   |       
+|   +---include
+|   |       app_common.h
+|   |       app_config.h
+|   |       consumer_eq.h
+|   |       led_ctrl.h
+|   |       led_display.h
+|   |       ui_key_map.h
+|   |       
+|   +---led_display
+|   |       CMakeLists.txt
+|   |       led_ctrl.c
+|   |       led_display.c
+|   |       led_layer.c
+|   |       
+|   +---stub
+|   |       CMakeLists.txt
+|   |       stub_baudrate.c
+|   |       stub_close.c
+|   |       stub_command.c
+|   |       stub_init.c
+|   |       stub_inner.h
+|   |       stub_open.c
+|   |       stub_read.c
+|   |       stub_write.c
+|   |       
+|   +---ui_key_map
+|   |       CMakeLists.txt
+|   |       ui_key_map.c
+|   |       
+|   \---usp
+|           CMakeLists.txt
+|           usp_baudrate.c
+|           usp_command.c
+|           usp_communication.c
+|           usp_connect.c
+|           usp_disconnect.c
+|           usp_inquiry.c
+|           usp_open.c
+|           usp_protocol_fsm.c
+|           usp_protocol_init.c
+|           usp_protocol_inner.h
+|           usp_transfer.c
+|           
++---main
+|       CMakeLists.txt
+|       Kconfig
+|       Makefile
+|       production_test.h
+|       system_app.h
+|       system_app_config.c
+|       system_app_event.c
+|       system_app_input.c
+|       system_app_launcher.c
+|       system_app_main.c
+|       system_app_poweroff.c
+|       system_app_poweron.c
+|       system_app_shell.c
+|       system_app_view.c
+|       system_audio_policy.c
+|       system_bat_charge.c
+|       system_ble_advertise.c
+|       system_bt_ops.c
+|       system_dc5v_io_cmd.c
+|       system_dc5v_io_cmd.h
+|       system_dc5v_io_ctrl.c
+|       system_dc5v_status.c
+|       system_dc5v_uart.c
+|       system_event_map.c
+|       system_key_tone.c
+|       system_tts_policy.c
+|       tr_api_app.c
+|       tr_system_app_config.c
+|       tr_system_bt_ops.c
+|       
++---ota
+|       CMakeLists.txt
+|       Kconfig
+|       libtuya_ble_secure.a
+|       Makefile
+|       ota_app.h
+|       ota_app_foreground.c
+|       ota_tws_slave_stream.c
+|       ota_tws_sppble_stream.c
+|       ota_tws_transmit.c
+|       ota_tws_transmit.h
+|       
++---tool
+|   |   CMakeLists.txt
+|   |   Kconfig
+|   |   Makefile
+|   |   tool_app_inner.h
+|   |   tool_app_main.c
+|   |   tool_aset.c
+|   |   tool_att.c
+|   |   tool_att.h
+|   |   tool_ectt.c
+|   |   tool_uart.c
+|   |   tool_usb.c
+|   |   
+|   \---spp_test
+|           abtp_entry.c
+|           abtp_inner.h
+|           CMakeLists.txt
+|           Makefile
+|           mic_test_entry.c
+|           mic_test_inner.h
+|           show_fw_version.c
+|           spp_audio_play.c
+|           spp_enc_upload.c
+|           spp_mic_upload.c
+|           spp_test_background.c
+|           spp_test_inner.h
+|           
++---tr_bqb_ag
+|       CMakeLists.txt
+|       Kconfig
+|       Makefile
+|       tr_bqb_ag.h
+|       tr_bqb_ag_event.c
+|       tr_bqb_ag_main.c
+|       tr_bqb_ag_media.c
+|       tr_bqb_ag_ring.c
+|       tr_bqb_ag_view.c
+|       
++---tr_br_bqb
+|       CMakeLists.txt
+|       Kconfig
+|       Makefile
+|       tr_bqb_app.h
+|       tr_bqb_app_main.c
+|       tr_bqb_event.c
+|       tr_bqb_media.c
+|       tr_bqb_view.c
+|       
++---tr_usound
+|   |   CMakeLists.txt
+|   |   iap2.c
+|   |   iap2.h
+|   |   Kconfig
+|   |   Makefile
+|   |   tr_usound.h
+|   |   tr_usound_ctrl.c
+|   |   tr_usound_dev.c
+|   |   tr_usound_effect.c
+|   |   tr_usound_event.c
+|   |   tr_usound_main.c
+|   |   tr_usound_media.c
+|   |   tr_usound_media_profile.c
+|   |   tr_usound_mic_dev.c.bak
+|   |   tr_usound_view.c
+|   |   
+|   +---disk
+|   |       CMakeLists.txt
+|   |       disk_access_usb.c
+|   |       disk_access_usb.h
+|   |       Kconfig
+|   |       
+|   +---hotplug_manager
+|   |   |   CMakeLists.txt
+|   |   |   hotplug_manager.c
+|   |   |   hotplug_manager.h
+|   |   |   Kconfig
+|   |   |   
+|   |   \---hotplug_usb
+|   |           CMakeLists.txt
+|   |           hotplug_usb.c
+|   |           hotplug_usb.h
+|   |           
+|   +---usb_audio_sink
+|   |       CMakeLists.txt
+|   |       usb_audio_sink_handler.c
+|   |       usb_audio_sink_handler.h
+|   |       
+|   +---usb_audio_source
+|   |       CMakeLists.txt
+|   |       usb_audio_source_handler.c
+|   |       usb_audio_source_handler.h
+|   |       
+|   +---usb_audio_sourcesink
+|   |       CMakeLists.txt
+|   |       Kconfig
+|   |       tr_usb_hid.c
+|   |       usb_audio_device_desc.h
+|   |       usb_audio_hal.c
+|   |       usb_audio_inner.h
+|   |       usb_audio_upload_stream.c
+|   |       usb_hid_hal.c
+|   |       usb_hid_inner.h
+|   |       
+|   +---usb_cdc_acm
+|   |       CMakeLists.txt
+|   |       usb_cdc_acm.c
+|   |       usb_cdc_acm.h
+|   |       
+|   \---usb_hid
+|           CMakeLists.txt
+|           usb_hid_descriptor.h
+|           usb_hid_handler.c
+|           usb_hid_handler.h
+|           usb_hid_report_desc.h
+|           usb_hid_shell.c
+|           usb_hid_shell.h
+|           
+\---user_comm
+    |   CMakeLists.txt
+    |   Kconfig
+    |   Makefile
+    |   
+    +---aes_mw
+    |       aes_mw.c
+    |       
+    +---ap_record
+    |       ap_record_private.h
+    |       record_app_event.c
+    |       record_app_main.c
+    |       record_app_media.c
+    |       record_app_uploadstream.c
+    |       
+    +---ap_role_switch
+    |       ap_role_switch.c
+    |       
+    +---ap_status
+    |       ap_status.c
+    |       
+    +---ota_transmit
+    |       ap_ota_backend.c
+    |       ap_ota_head_splice.c
+    |       ap_ota_private.h
+    |       ap_ota_stream.c
+    |       ap_ota_transmit.c
+    |       ota_mw.c
+    |       ota_mw.h
+    |       
+    \---sys_comm
+            sys_comm.c
+            

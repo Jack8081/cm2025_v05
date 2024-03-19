@@ -1,0 +1,28 @@
+# Available runners configured by board.cmake.
+runners:
+- pyocd
+- jlink
+
+# Default flash runner if --runner is not given.
+flash-runner: pyocd
+
+# Default debug runner if --runner is not given.
+debug-runner: pyocd
+
+# Common runner configuration values.
+config:
+  board_dir: D:/cm2025_src/zephyr/boards/arm/cuckoo_dvb_earphone
+  # Build outputs:
+  elf_file: zephyr.elf
+  hex_file: zephyr.hex
+  bin_file: zephyr.bin
+  # Host tools:
+  gdb: C:/Actions/ZEPHYR_SDK/1.02/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/arm-none-eabi-gdb.exe
+
+# Runner specific arguments
+args:
+  pyocd:
+    - --target=lark
+  jlink:
+    - --device=lark
+    - --speed=10000

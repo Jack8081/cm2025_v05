@@ -1,0 +1,413 @@
+The target system is: Generic - 2.7.0 - arm
+The host system is: Windows - 10.0.19044 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Actions/ZEPHYR_SDK/1.02/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/arm-none-eabi-gcc.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/3.21.3/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Actions/ZEPHYR_SDK/1.02/gcc-arm-none-eabi-9-2020-q2-update-win32/bin/arm-none-eabi-gcc.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/3.21.3/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-none-eabi-gcc.exe (GNU Arm Embedded Toolchain 9-2020-q2-update) 9.3.1 20200408 (release)
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0_ succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_b26db && [1/2] Building C object CMakeFiles/cmTC_b26db.dir/src.c.obj
+[2/2] Linking C executable cmTC_b26db
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wpointer_sign_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_4fffb && [1/2] Building C object CMakeFiles/cmTC_4fffb.dir/src.c.obj
+[2/2] Linking C executable cmTC_4fffb
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wpointer_arith_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_5bfa4 && [1/2] Building C object CMakeFiles/cmTC_5bfa4.dir/src.c.obj
+[2/2] Linking C executable cmTC_5bfa4
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wexpansion_to_defined_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_32471 && [1/2] Building C object CMakeFiles/cmTC_32471.dir/src.c.obj
+[2/2] Linking C executable cmTC_32471
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wlogical_op_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_44f55 && [1/2] Building C object CMakeFiles/cmTC_44f55.dir/src.c.obj
+[2/2] Linking C executable cmTC_44f55
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wmissing_field_initializers_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_677e2 && [1/2] Building C object CMakeFiles/cmTC_677e2.dir/src.c.obj
+[2/2] Linking C executable cmTC_677e2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wpacked_bitfield_compat_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_2b9a9 && [1/2] Building C object CMakeFiles/cmTC_2b9a9.dir/src.c.obj
+[2/2] Linking C executable cmTC_2b9a9
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wvla_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_119aa && [1/2] Building C object CMakeFiles/cmTC_119aa.dir/src.c.obj
+[2/2] Linking C executable cmTC_119aa
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wunused_but_set_variable_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_57064 && [1/2] Building C object CMakeFiles/cmTC_57064.dir/src.c.obj
+[2/2] Linking C executable cmTC_57064
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Werror_implicit_int_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_08e20 && [1/2] Building C object CMakeFiles/cmTC_08e20.dir/src.c.obj
+[2/2] Linking C executable cmTC_08e20
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Werror_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_350cf && [1/2] Building C object CMakeFiles/cmTC_350cf.dir/src.c.obj
+[2/2] Linking C executable cmTC_350cf
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_freestanding_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_a7fff && [1/2] Building C object CMakeFiles/cmTC_a7fff.dir/src.c.obj
+[2/2] Linking C executable cmTC_a7fff
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_gdwarf_4_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_c8b28 && [1/2] Building C object CMakeFiles/cmTC_c8b28.dir/src.c.obj
+[2/2] Linking C executable cmTC_c8b28
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___print_memory_usage succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_e8335 && [1/2] Building C object CMakeFiles/cmTC_e8335.dir/src.c.obj
+[2/2] Linking C executable cmTC_e8335
+Memory region         Used Size  Region Size  %age Used
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fsanitize_address succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_4a8c7 && [1/2] Building C object CMakeFiles/cmTC_4a8c7.dir/src.c.obj
+[2/2] Linking C executable cmTC_4a8c7
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__fsanitize_undefined succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_b1a8a && [1/2] Building C object CMakeFiles/cmTC_b1a8a.dir/src.c.obj
+[2/2] Linking C executable cmTC_b1a8a
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_605eb && [1/2] Building C object CMakeFiles/cmTC_605eb.dir/src.c.obj
+[2/2] Linking C executable cmTC_605eb
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__mcpu_cortex_m4 succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_0e331 && [1/2] Building C object CMakeFiles/cmTC_0e331.dir/src.c.obj
+[2/2] Linking C executable cmTC_0e331
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__mthumb succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_e41cb && [1/2] Building C object CMakeFiles/cmTC_e41cb.dir/src.c.obj
+[2/2] Linking C executable cmTC_e41cb
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__mabi_aapcs succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_9f91f && [1/2] Building C object CMakeFiles/cmTC_9f91f.dir/src.c.obj
+[2/2] Linking C executable cmTC_9f91f
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__mfpu_fpv4_sp_d16 succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_e7140 && [1/2] Building C object CMakeFiles/cmTC_e7140.dir/src.c.obj
+[2/2] Linking C executable cmTC_e7140
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___gc_sections succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_94f89 && [1/2] Building C object CMakeFiles/cmTC_94f89.dir/src.c.obj
+[2/2] Linking C executable cmTC_94f89
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___build_id_none succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_add60 && [1/2] Building C object CMakeFiles/cmTC_add60.dir/src.c.obj
+[2/2] Linking C executable cmTC_add60
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___sort_common_descending succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_19c63 && [1/2] Building C object CMakeFiles/cmTC_19c63.dir/src.c.obj
+[2/2] Linking C executable cmTC_19c63
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___sort_section_alignment succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_62b3f && [1/2] Building C object CMakeFiles/cmTC_62b3f.dir/src.c.obj
+[2/2] Linking C executable cmTC_62b3f
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__nostdlib succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_2f635 && [1/2] Building C object CMakeFiles/cmTC_2f635.dir/src.c.obj
+[2/2] Linking C executable cmTC_2f635
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__static succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_24274 && [1/2] Building C object CMakeFiles/cmTC_24274.dir/src.c.obj
+[2/2] Linking C executable cmTC_24274
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__no_pie succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_52efe && [1/2] Building C object CMakeFiles/cmTC_52efe.dir/src.c.obj
+[2/2] Linking C executable cmTC_52efe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl__X succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_4b99c && [1/2] Building C object CMakeFiles/cmTC_4b99c.dir/src.c.obj
+[2/2] Linking C executable cmTC_4b99c
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl__N succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_5a70d && [1/2] Building C object CMakeFiles/cmTC_5a70d.dir/src.c.obj
+[2/2] Linking C executable cmTC_5a70d
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__Wl___orphan_handling_warn succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_71183 && [1/2] Building C object CMakeFiles/cmTC_71183.dir/src.c.obj
+[2/2] Linking C executable cmTC_71183
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_asynchronous_unwind_tables_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_e95a9 && [1/2] Building C object CMakeFiles/cmTC_e95a9.dir/src.c.obj
+[2/2] Linking C executable cmTC_e95a9
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_pie_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_283bd && [1/2] Building C object CMakeFiles/cmTC_283bd.dir/src.c.obj
+[2/2] Linking C executable cmTC_283bd
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_pic_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_04703 && [1/2] Building C object CMakeFiles/cmTC_04703.dir/src.c.obj
+[2/2] Linking C executable cmTC_04703
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_strict_overflow_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_9207d && [1/2] Building C object CMakeFiles/cmTC_9207d.dir/src.c.obj
+[2/2] Linking C executable cmTC_9207d
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_reorder_functions_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_a4fc9 && [1/2] Building C object CMakeFiles/cmTC_a4fc9.dir/src.c.obj
+[2/2] Linking C executable cmTC_a4fc9
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_defer_pop_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_40bd1 && [1/2] Building C object CMakeFiles/cmTC_40bd1.dir/src.c.obj
+[2/2] Linking C executable cmTC_40bd1
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fmacro_prefix_map_D__cm2025_src_application_bt_earphone_CMAKE_SOURCE_DIR_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_5efce && [1/2] Building C object CMakeFiles/cmTC_5efce.dir/src.c.obj
+[2/2] Linking C executable cmTC_5efce
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fmacro_prefix_map_D__cm2025_src_zephyr_ZEPHYR_BASE_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_d80f1 && [1/2] Building C object CMakeFiles/cmTC_d80f1.dir/src.c.obj
+[2/2] Linking C executable cmTC_d80f1
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fmacro_prefix_map_D__cm2025_src_WEST_TOPDIR_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_7932d && [1/2] Building C object CMakeFiles/cmTC_7932d.dir/src.c.obj
+[2/2] Linking C executable cmTC_7932d
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_ffunction_sections_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_3bee0 && [1/2] Building C object CMakeFiles/cmTC_3bee0.dir/src.c.obj
+[2/2] Linking C executable cmTC_3bee0
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fdata_sections_C__nostartfiles__nostdlib__isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include___isystem__c__actions_zephyr_sdk_1_02_gcc_arm_none_eabi_9_2020_q2_update_win32_bin____lib_gcc_arm_none_eabi_9_3_1_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: D:/cm2025_src/application/bt_earphone/outdir_app/cuckoo_dvb_earphone/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Actions/ZEPHYR_SDK/1.02/bin/ninja.exe cmTC_3e717 && [1/2] Building C object CMakeFiles/cmTC_3e717.dir/src.c.obj
+[2/2] Linking C executable cmTC_3e717
+
+
+Source file was:
+int main(void) { return 0; }

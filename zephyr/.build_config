@@ -1,0 +1,6 @@
+# Build config
+BOARD=cuckoo_dvb_earphone
+APPLICATION=bt_earphone
+SUB_APP=
+APP_CONF=cuckoo_dvb_earphone
+PRJ_CONF=app.conf

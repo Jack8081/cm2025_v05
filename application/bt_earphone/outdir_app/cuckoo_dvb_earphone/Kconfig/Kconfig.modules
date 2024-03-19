@@ -1,0 +1,54 @@
+menu "fatfs (D:\cm2025_src\thirdparty\fs\fatfs)"
+osource "D:/cm2025_src/thirdparty/fs/fatfs/Kconfig"
+config ZEPHYR_FATFS_MODULE
+	bool
+	default y
+endmenu
+menu "base (D:\cm2025_src\framework\base)"
+osource "D:/cm2025_src/framework/base/Kconfig"
+config ZEPHYR_BASE_MODULE
+	bool
+	default y
+endmenu
+menu "system (D:\cm2025_src\framework\system)"
+osource "D:/cm2025_src/framework/system/Kconfig"
+config ZEPHYR_SYSTEM_MODULE
+	bool
+	default y
+endmenu
+menu "audio (D:\cm2025_src\framework\audio)"
+osource "D:/cm2025_src/framework/audio/Kconfig"
+config ZEPHYR_AUDIO_MODULE
+	bool
+	default y
+endmenu
+menu "media (D:\cm2025_src\framework\media)"
+osource "D:/cm2025_src/framework/media/Kconfig"
+config ZEPHYR_MEDIA_MODULE
+	bool
+	default y
+endmenu
+menu "ota (D:\cm2025_src\framework\ota)"
+osource "D:/cm2025_src/framework/ota/Kconfig"
+config ZEPHYR_OTA_MODULE
+	bool
+	default y
+endmenu
+menu "bluetooth (D:\cm2025_src\framework\bluetooth)"
+osource "D:/cm2025_src/framework/bluetooth/Kconfig"
+config ZEPHYR_BLUETOOTH_MODULE
+	bool
+	default y
+endmenu
+menu "display (D:\cm2025_src\framework\display)"
+osource "D:/cm2025_src/framework/display/Kconfig"
+config ZEPHYR_DISPLAY_MODULE
+	bool
+	default y
+endmenu
+menu "usb (D:\cm2025_src\framework\usb)"
+osource "D:/cm2025_src/framework/usb/Kconfig"
+config ZEPHYR_USB_MODULE
+	bool
+	default y
+endmenu
